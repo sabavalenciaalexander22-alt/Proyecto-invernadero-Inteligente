@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40410b785845939b518712ff145bb39acd0da9e01e": {
+      "workers": {
+        "app/chatbot/page": {
+          "moduleId": "[project]/.next-internal/server/app/chatbot/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chatbot.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/chatbot/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

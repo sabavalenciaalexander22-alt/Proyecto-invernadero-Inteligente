@@ -1,0 +1,28 @@
+{
+  "node": {
+    "4088df04455c02fc6b527513ec2cb5b1c1fc483966": {
+      "workers": {
+        "app/recommendations/page": {
+          "moduleId": "[project]/.next-internal/server/app/recommendations/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/plant-care-recommendation.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/recommendations/page": "action-browser"
+      }
+    },
+    "40410b785845939b518712ff145bb39acd0da9e01e": {
+      "workers": {
+        "app/chatbot/page": {
+          "moduleId": "[project]/.next-internal/server/app/chatbot/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chatbot.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/chatbot/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "OYS2sdv4wQvwXuoK0fKi14kxic80RVHbcIceO8Yd2Gs="
+}
